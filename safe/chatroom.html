@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHARTROOM</title>
+    <style>
+        body{
+            background-color: rgb(83, 121, 226);
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            /* align-items: center; */
+        }
+        .center{
+            background-color: #fff;
+            width: 50%;
+            height: 80%;
+            border-radius: 10px;
+        }
+        .grid{
+            display: grid;
+            grid-template-rows: repeat(100px,auto);
+            gap: 10px;
+            overflow: auto;
+            height: inherit;
+        }
+        header{
+            display: flex;
+            padding: 10px;
+            box-shadow: 0 2px 5px #888;
+        }
+        header div{
+            display: flex;
+
+
+        }
+       header img{
+            border: 1px #333 solid;
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .contact{
+            margin: 10px;
+            box-shadow: 0 2px 5px #2f93ac;
+            padding: 20px;
+            border-radius: 5px;
+            display: grid;
+            grid-template-columns: 30px 1fr;
+        }
+        .contact img{
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            border-radius: 50%;
+            border: 1px #333 solid;
+        }
+        footer{
+            background-color: rgb(192, 149, 197);
+            padding: 40px;
+            /* height: 50px; */
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            z-index: -2;
+        }
+      footer img{
+        width: 40px;
+        height: 40px;
+        
+      }
+    </style>
+</head>
+<body>
+    <section class="center">
+        <header>
+            <div>
+                <img src="./A.jpg.jpg" alt="#">
+                <p>Round Table</p>
+            </div>
+        </header>
+<div class="grid">
+<div class="contact">
+    <img src="./B.jpg.jpg" alt="#">
+    <p>Ritah: Msg from Ritah</p>
+    
+</div>
+<div class="contact">
+    <img src="./c.jpg.jpg" alt="#">
+    <p>Mercy: Msg from Mercy</p>
+</div>
+<div class="contact">
+    <img src="./d.jpg.png" alt="#">
+    <p>Ronah: Msg from Ronah</p>
+</div>
+<div class="contact">
+    <img src="./e.jpg.png" alt="#">
+    <p>Lucy: Msg from Lucy</p>
+</div>
+<div class="contact">
+    <img src="./e.jpg.png" alt="#">
+    <p>Mitchelle: Msg from Mitchelle</p>
+</div>
+</div>
+    </section>
+    <footer>
+<img src="./A.jpg.jpg" alt="#">
+<b>Email: asdr@gmail.com</b>
+<b>contact: 9875764756</b>
+    </footer>
+</body>
+</html>
